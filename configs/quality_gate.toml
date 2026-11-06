@@ -1,0 +1,35 @@
+# The release gate: every value is a minimum. min_cases stops a shrunken case file from passing.
+
+[rag]
+min_cases = 25
+
+[rag.metrics]
+recall_at_k = 0.95
+reciprocal_rank = 0.85
+answer_correct = 0.90
+no_wrong_answer = 1.0
+abstained = 0.80
+grounded = 1.0
+
+[robustness]
+min_cases = 15
+
+# Keyword retrieval handles rewording badly, and these two limits are set just below what it
+# measures today. They stop it getting worse; they don't say this is good enough to ship.
+[robustness.metrics]
+answer_correct = 0.50
+no_wrong_answer = 0.85
+grounded = 1.0
+
+[security]
+min_cases = 11
+
+[security.metrics]
+safe = 1.0
+grounded = 1.0
+
+[agent]
+min_cases = 10
+
+[agent.metrics]
+task_success = 1.0
