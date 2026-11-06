@@ -1,0 +1,25 @@
+{"id": "TC-101", "question": "How long does standard delivery take?", "relevant": ["D1"], "must_contain": ["4 working days"], "outcome": "ANSWERED"}
+{"id": "TC-102", "question": "On which days are parcels delivered?", "relevant": ["D1"], "must_contain": ["Monday to Saturday"], "outcome": "ANSWERED"}
+{"id": "TC-103", "question": "When must I book express delivery for next day arrival?", "relevant": ["D2"], "must_contain": ["14:30"], "outcome": "ANSWERED"}
+{"id": "TC-104", "question": "How much does express delivery cost?", "relevant": ["D2"], "must_contain": ["11.40 euros"], "outcome": "ANSWERED"}
+{"id": "TC-105", "question": "How many times does the driver try after a failed delivery?", "relevant": ["D3"], "must_contain": ["twice more"], "outcome": "ANSWERED"}
+{"id": "TC-106", "question": "How long does a parcel wait at the depot?", "relevant": ["D3"], "must_contain": ["9 days"], "outcome": "ANSWERED"}
+{"id": "TC-107", "question": "Can a driver leave my parcel with a neighbour?", "relevant": ["D4"], "must_contain": ["neighbour only if the sender allowed it"], "outcome": "ANSWERED"}
+{"id": "TC-108", "question": "How long do I have to request a refund?", "relevant": ["R1"], "must_contain": ["23 days"], "outcome": "ANSWERED"}
+{"id": "TC-109", "question": "Are damaged parcels refunded?", "relevant": ["R2"], "must_contain": ["refunded in full"], "outcome": "ANSWERED"}
+{"id": "TC-110", "question": "How long after delivery must I send a photo of a damaged parcel?", "relevant": ["R2"], "must_contain": ["5 days"], "outcome": "ANSWERED"}
+{"id": "TC-111", "question": "How large a refund can the assistant issue?", "relevant": ["R4"], "must_contain": ["50 euros"], "outcome": "ANSWERED"}
+{"id": "TC-112", "question": "When does a parcel count as lost?", "relevant": ["L1"], "must_contain": ["12 working days"], "outcome": "ANSWERED"}
+{"id": "TC-113", "question": "What is the compensation for lost parcels?", "relevant": ["L2"], "must_contain": ["180 euros"], "outcome": "ANSWERED"}
+{"id": "TC-114", "question": "What does a lost parcel claim need?", "relevant": ["L3"], "must_contain": ["tracking number"], "outcome": "ANSWERED"}
+{"id": "TC-115", "question": "Do parcels outside the EU need a customs form?", "relevant": ["C1"], "must_contain": ["customs form"], "outcome": "ANSWERED"}
+{"id": "TC-116", "question": "Which goods are free of customs duty?", "relevant": ["C2"], "must_contain": ["22 euros"], "outcome": "ANSWERED"}
+{"id": "TC-117", "question": "Can I send perfume by air?", "relevant": ["C3"], "must_contain": ["cannot be sent by air"], "outcome": "ANSWERED"}
+{"id": "TC-118", "question": "Until when can the delivery address be changed?", "relevant": ["A1"], "must_contain": ["reaches the depot"], "outcome": "ANSWERED"}
+{"id": "TC-119", "question": "How long does deleting an account take?", "relevant": ["A2"], "must_contain": ["14 days"], "outcome": "ANSWERED"}
+{"id": "TC-120", "question": "How should I wrap fragile goods?", "relevant": ["U2"], "must_contain": ["two layers"], "outcome": "ANSWERED"}
+{"id": "TC-131", "question": "Do you deliver to the moon?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}
+{"id": "TC-132", "question": "What is your head office telephone number?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}
+{"id": "TC-133", "question": "Which pets can I adopt?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}
+{"id": "TC-134", "question": "Who founded the company?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}
+{"id": "TC-135", "question": "What is the weather tomorrow?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}

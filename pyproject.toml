@@ -1,0 +1,37 @@
+[project]
+name = "rag-agent-evals"
+version = "1.0.0"
+description = "Testing a RAG assistant and a tool-using agent: retrieval metrics, grounding, guardrails and a quality gate."
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "pytest-cov==7.1.0", "ruff==0.17.4"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --strict-markers"
+
+[tool.coverage.run]
+source = ["deskbot", "evals"]
+branch = true
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+
+[tool.ruff]
+line-length = 110
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]

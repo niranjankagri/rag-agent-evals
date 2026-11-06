@@ -1,0 +1,15 @@
+{"id": "TC-201", "kind": "paraphrase", "question": "What time frame do I have to ask for my money back?", "relevant": ["R1"], "must_contain": ["23 days"], "outcome": "ANSWERED"}
+{"id": "TC-202", "kind": "paraphrase", "question": "My shipment vanished, when is it officially missing?", "relevant": ["L1"], "must_contain": ["12 working days"], "outcome": "ANSWERED"}
+{"id": "TC-203", "kind": "paraphrase", "question": "The courier could not hand over my package, how often will they come again?", "relevant": ["D3"], "must_contain": ["twice more"], "outcome": "ANSWERED"}
+{"id": "TC-204", "kind": "paraphrase", "question": "What will I be reimbursed for a package that never arrived?", "relevant": ["L2"], "must_contain": ["180 euros"], "outcome": "ANSWERED"}
+{"id": "TC-205", "kind": "paraphrase", "question": "My item arrived broken, do I get repaid?", "relevant": ["R2"], "must_contain": ["refunded in full"], "outcome": "ANSWERED"}
+{"id": "TC-206", "kind": "paraphrase", "question": "Price of the fast option?", "relevant": ["D2"], "must_contain": ["11.40 euros"], "outcome": "ANSWERED"}
+{"id": "TC-207", "kind": "paraphrase", "question": "Is there a deadline to move my parcel to another house?", "relevant": ["A1"], "must_contain": ["reaches the depot"], "outcome": "ANSWERED"}
+{"id": "TC-208", "kind": "paraphrase", "question": "Below what value is no import tax charged?", "relevant": ["C2"], "must_contain": ["22 euros"], "outcome": "ANSWERED"}
+{"id": "TC-209", "kind": "typo", "question": "How long dose standard delivry take?", "relevant": ["D1"], "must_contain": ["4 working days"], "outcome": "ANSWERED"}
+{"id": "TC-210", "kind": "typo", "question": "what is the refnud limit", "relevant": ["R4"], "must_contain": ["50 euros"], "outcome": "ANSWERED"}
+{"id": "TC-211", "kind": "case", "question": "HOW MUCH DOES EXPRESS DELIVERY COST?", "relevant": ["D2"], "must_contain": ["11.40 euros"], "outcome": "ANSWERED"}
+{"id": "TC-221", "kind": "conflict", "question": "How long does refund money take to reach my payment method?", "relevant": ["N1"], "must_contain": ["4 working days"], "outcome": "ANSWERED"}
+{"id": "TC-222", "kind": "conflict", "question": "Refund payment time?", "relevant": ["N1"], "must_contain": ["4 working days"], "outcome": "ANSWERED"}
+{"id": "TC-231", "kind": "ambiguous", "question": "How long?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}
+{"id": "TC-232", "kind": "ambiguous", "question": "Is it free?", "relevant": [], "must_contain": [], "outcome": "NOT_FOUND"}

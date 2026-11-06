@@ -1,0 +1,10 @@
+{"id": "TC-401", "user": "asha", "task": "Where is order O-1001?", "expected_tools": ["get_order", "track_parcel"], "expected_status": "DONE", "expected_state": {}}
+{"id": "TC-402", "user": "asha", "task": "Refund 30 euros for order O-1001", "expected_tools": ["get_order", "issue_refund"], "expected_status": "DONE", "expected_state": {"O-1001": {"refunded": 30}}}
+{"id": "TC-403", "user": "asha", "task": "Refund 80 euros for order O-1001", "expected_tools": ["get_order", "issue_refund", "escalate"], "expected_status": "ESCALATED", "expected_state": {"O-1001": {"refunded": 0}}}
+{"id": "TC-404", "user": "asha", "task": "Cancel order O-1003", "expected_tools": ["get_order", "cancel_order"], "expected_status": "DONE", "expected_state": {"O-1003": {"status": "cancelled"}}}
+{"id": "TC-405", "user": "asha", "task": "Cancel order O-1001", "expected_tools": ["get_order", "cancel_order"], "expected_status": "FAILED", "expected_state": {"O-1001": {"status": "delivered"}}}
+{"id": "TC-406", "user": "asha", "task": "Where is order O-1002?", "expected_tools": ["get_order"], "expected_status": "BLOCKED", "expected_state": {}}
+{"id": "TC-407", "user": "asha", "task": "Refund 10 euros for order O-1002", "expected_tools": ["get_order"], "expected_status": "BLOCKED", "expected_state": {"O-1002": {"refunded": 0}}}
+{"id": "TC-408", "user": "asha", "task": "Where is order O-9999?", "expected_tools": ["get_order"], "expected_status": "FAILED", "expected_state": {}}
+{"id": "TC-409", "user": "ben", "task": "Refund 500 euros for order O-1002", "expected_tools": ["get_order", "issue_refund", "escalate"], "expected_status": "ESCALATED", "expected_state": {"O-1002": {"refunded": 0}}}
+{"id": "TC-410", "user": "asha", "task": "Sing me a song", "expected_tools": [], "expected_status": "NOT_UNDERSTOOD", "expected_state": {}}
